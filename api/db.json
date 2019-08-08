@@ -28,6 +28,20 @@
       "favs": [],
       "avatar": "https://gravatar.com/avatar/21232f297a57a5a743894a0e4a801fc3",
       "email": "admin"
+    },
+    {
+      "id": "1d4e0910-b9ea-11e9-82e9-ffa90a81f94f",
+      "password": "$2b$10$RSxxe1sHU44EcYEcqAhrOeVz4qN4uwmBHKcNqP3ll0e7.FbM5uO1.",
+      "favs": [],
+      "avatar": "https://gravatar.com/avatar/bac7189a9727318fdd4fc68bd5ad12cf",
+      "email": "adminasdsad"
+    },
+    {
+      "id": "b150f730-b9ea-11e9-82e9-ffa90a81f94f",
+      "password": "$2b$10$N8lB0CoiHbhmSQXJvh8gsOPl/WiH9/qkZQqGWMJV1y14neKDhZDim",
+      "favs": [],
+      "avatar": "https://gravatar.com/avatar/0192023a7bbd73250516f069df18b500",
+      "email": "admin123"
     }
   ],
   "categories": [
