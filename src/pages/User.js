@@ -6,6 +6,6 @@ export const User = () => {
   const { removeAuth } = useContext(Context)
   return <Fragment>
     <h1>User</h1>
-    <SubmitButton onClick={removeAuth}>Cerrar sesión</SubmitButton>
+    <SubmitButton onClick={removeAuth}>Cerrar sesi?n</SubmitButton>
   </Fragment>
 }

@@ -5,7 +5,6 @@ import { ApolloProvider } from 'react-apollo'
 import Context from './Context'
 
 import { App } from './App'
-import { operationName } from '@apollo/react-common';
 
 const client = new ApolloClient({
   uri: 'http://localhost:3500/graphql',

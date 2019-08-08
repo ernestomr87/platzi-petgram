@@ -27,7 +27,8 @@
       "password": "$2b$10$DenbVEtCsl6.fvz3C8YxV.nQRQCNmA4caOV.ek7s3iglGOi2YxzbG",
       "favs": [
         "0",
-        "1"
+        "1",
+        "12"
       ],
       "avatar": "https://gravatar.com/avatar/21232f297a57a5a743894a0e4a801fc3",
       "email": "admin"
@@ -146,7 +147,7 @@
       "categoryId": 3,
       "src": "https://images.unsplash.com/photo-1553987882-91d92995e16c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
       "userId": 3,
-      "likes": 6
+      "likes": 7
     },
     {
       "id": 13,
