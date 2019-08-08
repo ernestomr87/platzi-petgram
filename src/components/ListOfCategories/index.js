@@ -2,25 +2,9 @@ import React, { Fragment, useEffect, useState } from 'react'
 import { Category } from '../Category'
 
 import { List, Item } from './styles'
+import { useCategoriesData } from './useCategoriesData'
 
-function useCategoriesData () {
-  const [categories, setCategories] = useState([])
-  const [loading, setLoading] = useState(false)
-
-  useEffect(function () {
-    setLoading(true)
-    window.fetch('http://localhost:3500/categories')
-      .then(res => res.json())
-      .then(response => {
-        setCategories(response)
-        setLoading(false)
-      })
-  }, [])
-
-  return { categories, loading }
-}
-
-export const ListOfCategories = () => {
+const ListOfCategoriesComponent = () => {
   const { categories, loading } = useCategoriesData()
   const [showFixed, setShowFixed] = useState(false)
 
@@ -55,3 +39,5 @@ export const ListOfCategories = () => {
     </Fragment>
   )
 }
+
+export const ListOfCategories = React.memo(ListOfCategoriesComponent)
